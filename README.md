@@ -18,7 +18,7 @@ $(function() {
     var feed = new Instafeed({
       get: 'user',
       userId:  your_user_id,
-      accessToken: your_access_token,
+      accessToken: 'your_access_token',
       links: false,
       limit: 8,
       sortBy: 'most-recent',
